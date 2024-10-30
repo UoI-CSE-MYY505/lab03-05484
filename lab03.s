@@ -4,7 +4,7 @@
 # Aris Efthymiou
 
 # This directive declares subroutines. Do not remove it!
-.globl rgb888_to_rgb565, showImage
+.globl rgb888_to_rgb565, showImages
 
 .data
 
@@ -63,7 +63,7 @@ image565:
     ecall
 
 # ----------------------------------------
-# Subroutine showImage
+# Subroutine showImages
 # a0 - image to display on Ripes' LED matrix
 # a1 - Base address of LED matrix
 # a2 - Width of the image and the LED matrix
